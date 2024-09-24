@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/find-smallest-letter-greater-than-target/submissions/1396522309/
-public class LT744 {
+public class LT33 {
     public static void main(String[] args) {
         char[] letters = {'c', 'f', 'j'};
 
