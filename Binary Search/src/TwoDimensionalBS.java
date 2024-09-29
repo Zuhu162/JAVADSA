@@ -10,7 +10,7 @@ public class TwoDimensionalBS {
                 {13, 14, 15, 16}
         };
 
-        int[] result = twoDimensionalSearch(sortedArray, 7);
+        int[] result = twoDimensionalSearch(sortedArray, 16);
 
         System.out.println(Arrays.toString(result));
 
