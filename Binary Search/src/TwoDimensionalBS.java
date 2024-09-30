@@ -35,3 +35,49 @@ public class TwoDimensionalBS {
         return new int[]{-1, -1};
     }
 }
+
+//int row = 0;
+//        int col = intervals[row].length - 1;
+//        int checkRow = row + 1;
+//
+//        int[] result = new int[intervals.length];
+//
+//        if(intervals.length < 2){
+//            int[] resultNew = {-1};
+//            return resultNew;
+//        }
+//
+//        int rightInt = -1;
+//        boolean found = false;
+//
+//        while(row < intervals.length){
+//
+//            if(intervals[row][col] > intervals[checkRow][0]){
+//                checkRow++;
+//            }
+//            else {
+//                if(!found){
+//                    found = true;
+//                    rightInt = checkRow;
+//                }
+//                else {
+//                    if(intervals[row][col] < intervals[rightInt][0]){
+//                        rightInt = row;
+//                    }
+//                }
+//                result[row] = rightInt;
+//                checkRow++;
+//            }
+//
+//
+//            if(checkRow > intervals.length - 1){
+//                result[row] = rightInt;
+//                row++;
+//                rightInt = -1;
+//                checkRow = 0;
+//                found = false;
+//            }
+//        }
+//
+//        return result;
+//    }
