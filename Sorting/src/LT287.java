@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class LT448 {
+public class LT287 {
     public static void main(String[] args) {
         int[] arr = {4,3,2,7,8,2,3,1};
 
@@ -24,7 +24,7 @@ public class LT448 {
 
         for(i = 0; i < nums.length; i++){
             if(nums[i] != i + 1){
-                numsList.add(nums[i]);
+                numsList.add(i + 1);
             }
         }
 
