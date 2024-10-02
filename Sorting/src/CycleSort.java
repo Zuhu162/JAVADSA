@@ -22,7 +22,7 @@ public class CycleSort {
 
     static void swap(int[] arr, int firstValue, int secondValue){
         int temp = arr[firstValue];
-        arr[firstValue] = secondValue;
+        arr[firstValue] = arr[secondValue];
         arr[secondValue] = temp;
     }
 }
