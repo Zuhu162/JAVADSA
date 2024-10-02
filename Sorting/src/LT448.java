@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class LT448 {
@@ -24,7 +25,7 @@ public class LT448 {
 
         for(i = 0; i < nums.length; i++){
             if(nums[i] != i + 1){
-                numsList.add(nums[i]);
+                numsList.add(i + 1);
             }
         }
 
