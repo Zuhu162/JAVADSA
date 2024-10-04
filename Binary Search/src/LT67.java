@@ -4,7 +4,8 @@ public class LT67 {
         long number = 2147483647;
         int num = (int) number;
 
-        System.out.println(isPerfectSquare(num));
+        int[] nuns = {1,2,3,4,0,0,0};
+        System.out.println(nuns.length);
     }
 
     static boolean isPerfectSquare(int num) {
