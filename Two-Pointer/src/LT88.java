@@ -1,5 +1,4 @@
 //https://leetcode.com/problems/merge-sorted-array/description/
-
 import java.util.Arrays;
 
 public class LT88 {
@@ -20,14 +19,13 @@ public class LT88 {
             if(nums2[j] >= nums1[i]){
                 nums1[k] = nums2[j];
                 j--;
-                k--;
             }
             else {
                 nums1[k] = nums1[i];
                 nums1[i] = 0;
                 i--;
-                k--;
             }
+            k--;
         }
 
         while(j >= 0){
