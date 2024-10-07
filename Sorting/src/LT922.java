@@ -1,9 +1,9 @@
 //https://leetcode.com/problems/sort-array-by-parity/
 import java.util.Arrays;
 
-public class LT905 {
+public class LT922 {
     public static void main(String[] args) {
-        int[] arr = {4,3,2,7,8,2,3,1};
+        int[] arr = {1,2,3,3,2,3,0,4};
 
         System.out.println(Arrays.toString(sortArrayByParity(arr)));
     }
@@ -18,6 +18,16 @@ public class LT905 {
                 end--;
             }
             else start++;
+        }
+
+        start = 1;
+        end = nums.length - 2;
+
+        while(start < end){
+            swap(nums, start, end);
+            end = end - 2;
+
+            start = start + 2;
         }
 
         return nums;
