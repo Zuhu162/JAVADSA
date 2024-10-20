@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class BubbleSortRecursive {
     public static void main(String[] args) {
         int[] arr = {5, 4, 3, 7, 2, 6, 1};
-        bubbleSort(arr);
+        recursiveBubbleSort(arr, arr.length - 1, 0);
         System.out.println(Arrays.toString(arr));
     }
 
@@ -20,12 +20,15 @@ public class BubbleSortRecursive {
        }
    }
 
-   static void recursiveBubbleSort(int[] arr, int n){
-        if(n == 1) return;
-
-       for (int i = 0; i < ; i++) {
-
-       }
+   static void recursiveBubbleSort(int[] arr, int r, int c){
+        if(r == 0) return;
+        if(c < r){
+            if(arr[c] > arr[c + 1]){
+                swap(arr, c, c+1);
+            }
+        recursiveBubbleSort(arr, r, c + 1);
+        }
+        else recursiveBubbleSort(arr, r-1, 0);
    }
 
 
