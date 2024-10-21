@@ -20,15 +20,15 @@ public class BubbleSortRecursive {
        }
    }
 
-   static void recursiveBubbleSort(int[] arr, int r, int c){
-        if(r == 0) return;
-        if(c < r){
-            if(arr[c] > arr[c + 1]){
-                swap(arr, c, c+1);
+   static void recursiveBubbleSort(int[] arr, int end, int start){
+        if(end == 0) return;
+        if(start < end){
+            if(arr[start] > arr[start + 1]){
+                swap(arr, start, start+1);
             }
-        recursiveBubbleSort(arr, r, c + 1);
+        recursiveBubbleSort(arr, end, start + 1);
         }
-        else recursiveBubbleSort(arr, r-1, 0);
+        else recursiveBubbleSort(arr, end-1, 0);
    }
 
 
