@@ -6,6 +6,7 @@ public class RecursiveLinearSearch {
         ArrayList<Integer> list = new ArrayList<>();
         int[] arr = {1,2,3,4,4,5,6,4};
 
+
 //        LinearSearch(4, arr, 0, list);
 //        System.out.println(list);
         System.out.println(LinearSearch2(4, arr, 0));

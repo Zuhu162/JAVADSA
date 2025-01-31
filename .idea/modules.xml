@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/Patterns/Patterns.iml" filepath="$PROJECT_DIR$/Patterns/Patterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/Recursion/Recursion.iml" filepath="$PROJECT_DIR$/Recursion/Recursion.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sorting/Sorting.iml" filepath="$PROJECT_DIR$/Sorting/Sorting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SystemDesigns/SystemDesigns.iml" filepath="$PROJECT_DIR$/SystemDesigns/SystemDesigns.iml" />
       <module fileurl="file://$PROJECT_DIR$/Two-Pointer/Two-Pointer.iml" filepath="$PROJECT_DIR$/Two-Pointer/Two-Pointer.iml" />
     </modules>
   </component>
