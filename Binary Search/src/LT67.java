@@ -1,4 +1,4 @@
-//https://leetcode.com/problems/find-smallest-letter-greater-than-target/submissions/1396522309/
+
 public class LT67 {
     public static void main(String[] args) {
         long number = 2147483647;
